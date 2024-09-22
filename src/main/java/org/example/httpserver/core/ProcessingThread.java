@@ -22,6 +22,11 @@ public class ProcessingThread extends Thread{
             InputStream inputStream = client.getInputStream();
             OutputStream outputStream = client.getOutputStream();
 
+//            int _byte;
+//            while((_byte = inputStream.read()) >=0 ){
+//                System.out.print((char) _byte);
+//            }
+
             String html = "<html>" +
                     "<head><title>Simple Java HTTP Server</title></head>" +
                     "<body>" +
